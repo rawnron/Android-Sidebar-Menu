@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:paddingBottom="50dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_User"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="UserName"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_Password"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="LOGIN"
+        android:id="@+id/BTNlogin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TVcreateaccount"
+        android:clickable="true"
+        android:focusable="false"
+        android:gravity="center"
+        android:inputType="none"
+        android:layout_marginTop="10dp"
+        android:text="Create Account"/>
+
+</LinearLayout>
